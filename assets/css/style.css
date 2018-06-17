@@ -1,0 +1,70 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background:url("../images/landscape.png") top right no-repeat; 
+    background-attachment:fixed;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align:left;
+}
+h1 { 
+    display: block;
+    font-size: 2em;
+    padding: 10px;
+    margin: 25px;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+#pageArea {
+    background-image: url("../images/tile.png");
+    background-repeat: repeat;
+    padding-bottom: 600px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#topicsArea {
+    margin-top: 1em;
+    padding: 12px;
+}
+
+#gifArea {
+    padding: 12px;
+}
+
+#topic {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background-color: rgb(214, 233, 243);
+    font-size: 12px;
+    padding: 12px 28px;
+    border-radius: 12px;
+    border: 2px solid rgb(47, 137, 160);
+    margin-right: .5em;
+    margin-bottom: .5em;
+}
+
+#searchArea {
+    float: right;
+    margin-right: .5em;
+    display: block;
+    font-weight: bold;
+    color: rgb(64, 113, 202);
+    text-shadow: 2px 2px rgb(231, 255, 98);
+}
+
+#searcher {
+    background-color: rgb(214, 233, 243);
+    border-radius: 12px;
+    border: 2px solid rgb(47, 137, 160);
+    margin-top: 1em;
+}
